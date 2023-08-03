@@ -11,3 +11,6 @@ function skillMember() {
 
     return member;
 }
+
+var member = skillMember();
+member.sayHi(); // Hi, I am John
