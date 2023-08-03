@@ -1,3 +1,7 @@
-function calculateNumbers(var1, var2) {
-    console.log(var1 + var2);
-}   // 3 
+function skillsMember (member) {
+  return {
+    id: member.id,
+    name: member.name,
+    skills: member.skills
+  }
+}
